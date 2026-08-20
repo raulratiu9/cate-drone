@@ -14,25 +14,25 @@ Instead of presenting incidents as isolated news stories, the project aims to co
 
 Each incident can include information such as:
 
-* 📍 Location and coordinates
-* 📅 Date and time
-* 🚁 Incident type
-* 🧩 Drone or debris information, when known
-* 🏛️ Official statements
-* 📰 Relevant public sources
-* 🔗 Links to original sources
-* ✅ Verification / confidence status
+- 📍 Location and coordinates
+- 📅 Date and time
+- 🚁 Incident type
+- 🧩 Drone or debris information, when known
+- 🏛️ Official statements
+- 📰 Relevant public sources
+- 🔗 Links to original sources
+- ✅ Verification / confidence status
 
 ## 🎯 Goals
 
 The project is designed around a few principles:
 
-* **Accessible** — no account or login required
-* **Source-driven** — incidents should be traceable to their original sources
-* **Interactive** — explore incidents directly on a map
-* **Transparent** — distinguish confirmed information from uncertain or incomplete reports
-* **Automatable** — eventually detect and extract new incidents from trusted sources automatically
-* **Expandable** — start with Romania, with the possibility of covering other regions in the future
+- **Accessible** — no account or login required
+- **Source-driven** — incidents should be traceable to their original sources
+- **Interactive** — explore incidents directly on a map
+- **Transparent** — distinguish confirmed information from uncertain or incomplete reports
+- **Automatable** — eventually detect and extract new incidents from trusted sources automatically
+- **Expandable** — start with Romania, with the possibility of covering other regions in the future
 
 ## 💡 Planned Features
 
@@ -50,12 +50,12 @@ Selecting an incident will provide its known details, sources, timeline, and ver
 
 Potential filters include:
 
-* date
-* county / region
-* incident type
-* drone status
-* source type
-* verification status
+- date
+- county / region
+- incident type
+- drone status
+- source type
+- verification status
 
 ### Automated Data Collection
 
@@ -101,11 +101,11 @@ Interactive Map
 
 Initial technologies under consideration:
 
-* **Next.js**
-* **TypeScript**
-* **Leaflet / OpenStreetMap**
-* Database and backend architecture — TBD
-* AI-assisted data extraction — planned
+- **Next.js**
+- **TypeScript**
+- **Leaflet / OpenStreetMap**
+- Database and backend architecture — TBD
+- AI-assisted data extraction — planned
 
 The stack will evolve as the data model and ingestion requirements become clearer.
 
@@ -137,3 +137,40 @@ If the data collection and verification pipeline proves reliable, the same archi
 ---
 
 **cate-drone.ro** — turning scattered reports into structured, explorable data.
+
+This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+
+## Getting Started
+
+First, run the development server:
+
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+```
+
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+
+This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+
+## Learn More
+
+To learn more about Next.js, take a look at the following resources:
+
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
